@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="images/stackoverflow-color.png">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="assets/icon.css">
-    <link rel="stylesheet" href="/assets/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
@@ -23,7 +23,7 @@
                 <div class="header-user">
                     <img src="images/user-icon.png" alt="">
                     <span title="1 bronze badge" aria-hidden="true">
-                        <span class="badgecount">1</span>
+                        <span class="badgecount1">1</span>
                         <span class="badge3">●</span>
                         <span class="badgecount">1</span>
                     </span>
@@ -35,12 +35,12 @@
             </div>
         </div>
         <!--header end-->
-        <div class="main-body"></div>
+        <div class="main-body">
             <div class="side-bar">
                 <ol class="sb1">
                     <li>Home</li>
                     <li>PUBLIC</li>
-                    <li><img src="images/earth.png" alt=""> Questions</li>
+                    <li><img id="earth-icon" src="images/earth.png" alt=""> Questions</li>
                     <div class="sub-sb1">
                         <ol>
                             <li>Tags</li>
@@ -63,7 +63,156 @@
                 </ol>
             </div>
             <!--side bar end-->
+            <div class="main-content">
+                <div class="mc-1">
+                    <div class="pro-image">
+                        <img src="images/pro-icon.jpeg" alt="">
+                    </div>
+                    <div class="image-content">
+                        <p> Jon Skeet</p>
+                        <div class="ic-1">
+                            <span class="material-icons">cake</span>
+                            <span>Member for 13 years, 9 months</span>
+                            <span class="material-icons">query_builder</span>
+                            <span>Last seen this week</span>
+                        </div>
+                        <div class="ic-2">
+                            <img src="images/icons8-twitter-20.png" alt="">
+                            <img src="images/icons8-github-20.png" alt="">
+                            <img src="images/icons8-link-50.png" alt="">
+                            <a href="csharpindepth.com">csharpindepth.com</a>
+                            <img src="images/icons8-location-20.png" alt="">
+                            <span>Reading, United Kingdom</span>
+                        </div>  
+                    </div>
+                    <div class="button-icon">
+                        <button type="button" class="btn btn-default">
+                            <span class="btn">Profiles</span>
+                            <span id="expand-icon" class="material-icons">expand_more</span>
+                          </button>
+                    </div>
+                </div>
+                <div class="mc-2">
+                    <div class="profile">
+                        <button class="btn-1">Profile</button>
+                    </div>
+                    <div class="activity-btn">
+                        <button class="btn-2">Activity</button>
+                    </div>
+                </div>
+                <div class="mc-3">
+                    <div class="stats-bar">
+                        <div class="stats-title">
+                            <span>Stats</span>
+                        </div>
+                        <div class="status-content">
+                            <div class="content-row">
+                                <div class="reputation">
+                                    <span id="title">1,338,759</span>
+                                    <span id="discription">reputation</span>
+                                </div>
+                                <div class="reached">
+                                    <span id="title">362.0m</span>
+                                    <span id="discription">reached</span>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="answers">
+                                    <span id="title">35,451</span>
+                                    <span id="discription">answers</span>
+                                </div>
+                                <div class="questions">
+                                    <span id="title">51</span>
+                                    <span id="discription">questions</span>
+                                </div>
+                            </div>
+                            <div class="content-full">
+                                <div class="achievements">
+                                    <img src="images/trophy.png" alt="">
+                                    <span id="discription">top 0.01% overall</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Collectives">
+                            <div class="collectives-title">
+                                <span>Collectives</span>
+                            </div>
+                            <div class="collectives-content">
+                                <div class="collective-image">
+                                    <img src="images/cloud.JPG" alt="">
+                                </div>
+                                <div class="collective-info">
+                                    <span>Google Cloud</span>
+                                    <span id="collective-emp">2021 • Employee</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Communities">
+                            <div class="communities-title">
+                                <span>Communities</span>
+                                <span id="icon-view"> View all</span>
+                                <span id="mi-view" class="material-icons">open_in_new</span>
+                            </div>
+                            <div class="communities-content">
+                                <ul>
+                                    <li>
+                                        <div class="stack">
+                                            <img src="images/stackoverflow-color.png" alt="">
+                                            <a href="#">Stack Overflow </a>
+                                            <span>1.3m</span>
+                                        </div>
+                                        <div class="exchange">
+                                            <img src="images/icons8-chat-bubble-20.png" alt="">
+                                            <a href="#">Meta Stack Exchange</a>
+                                            <span>92.7k</span>
+                                        </div>
+                                        <div class="super-user">
+                                            <img src="images/icons8-knowledge-transfer-20.png" alt="">
+                                            <a href="#">Super User</a>
+                                            <span>5.1k</span>
+                                        </div>
+                                        <div class="server-fault">
+                                            <img src="images/icons8-server-fault.png" alt="">
+                                            <a href="#">Server Fault</a>
+                                            <span>4.7k</span>
+                                        </div>
+                                        <div class="engineering">
+                                            <img src="images/icons8-travel-mug-64.png" alt="">
+                                            <a href="#">Software Engineering</a>
+                                            <span>3.4k</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-bar">
+                        <div class="about-title">
+                            <span>About</span>
+                        </div>
+                        <div class="discription">
+                            <span>Author of <a href="#"> C# in Depth.</a></span>
+                            <p>Currently a software engineer at Google, London.</p>
+                            <p>Usually a Microsoft MVP (C#, 2003-2010, 2011-)</p>
+                        </div>
+                        <div class="sites-list">
+                            <span>Sites:</span>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">C# in Depth</a></li>
+                                    <li><a href="#">Coding blog</a></li>
+                                    <li><a href="#">C# articles</a></li>
+                                    <li><a href="#">Twitter updates (@jonskeet)</a></li>
+                                </ul>
+                            </div>
+                            <span>Email: skeet@pobox.com (but please read my blog post on Stack Overflow-related emails first)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--main content end-->
         </div>
+        <!--main body end-->
     </div>
     <!--container end-->
 </body>
