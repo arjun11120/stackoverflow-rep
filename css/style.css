@@ -150,7 +150,7 @@ span.badgecount{
 .main-content{
     padding: 10px 15px;
     width: 80%;
-    margin-left: 15%;
+    margin-left: 200px;
 }
 .mc-1,.mc-2,.mc-3{
     display: inline-flex;
@@ -358,16 +358,43 @@ ol.list{
     font-size: 14px;
 }
 .cc-title2{
-    display: block;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0px;
 }
 .cc-title img{
-    display: flex;
     width: 50px;
 }
 .cc-title{
-    display: flex;
     padding: 10px 0px;
+    border: 1px solid  rgba(17, 17, 17, 0.116);
+    display: inline-block;
 }
 .cm2{
     padding: 50px 0px;
+}
+div.img-content{
+    padding: 5px 10px;
+}
+.cc-content li{
+    list-style-type: none;
+}
+span.dot-icon {
+    color: gold;
+}
+.cc-c1{
+    font-size: 10px;
+    padding: 2px 10px;
+}
+
+.cc-c2{
+    padding: 5px;
+    border: 1px solid  rgba(17, 17, 17, 0.116);
+    display: inline-block;
+}
+.cc-c3{
+    padding: 5px;
+    border: 1px solid  rgba(17, 17, 17, 0.116);
+    margin-left: 20px;
+    float: right;
 }
