@@ -236,7 +236,7 @@ span.badgecount{
     display: block;
     padding: 0px 10px;
 }
-.stats-title span,.about-title span,.collectives-title span,.communities-title span{
+.stats-title span,.about-title span,.collectives-title span,.communities-title span,.cm2-title span{
     font-size: 20px;
 }
 .content-row{
@@ -287,10 +287,12 @@ span.badgecount{
 .collective-info{
     display:block;
     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-    font-size: 14px;
+    font-size: 14px; 
+    padding: inherit;
 }
 #collective-emp{
     display: block;
+    font-size: 10px;
 }
 #icon-view{
     margin-left: 50px;
@@ -330,7 +332,7 @@ span.badgecount{
     padding: 5px;
 }
 .communities-content li{
-    line-height: 20px;
+    line-height: 30px;
 }
 .about-bar{
     padding: 0px 20px;
@@ -354,4 +356,18 @@ ol.list{
 }
 .sites-list span{
     font-size: 14px;
+}
+.cc-title2{
+    display: block;
+}
+.cc-title img{
+    display: flex;
+    width: 50px;
+}
+.cc-title{
+    display: flex;
+    padding: 10px 0px;
+}
+.cm2{
+    padding: 50px 0px;
 }
