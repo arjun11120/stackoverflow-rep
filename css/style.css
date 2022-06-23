@@ -98,10 +98,10 @@
     color: #8d949c;
     font-size: smaller;
     border-right: 1px solid  rgba(17, 17, 17, 0.116);
-    position: fixed;
-    /*position: sticky;
-    position: -webkit-sticky;
-    top:0;*/
+    position: sticky;
+    top:0;
+    width: 168px;
+    height: 540px;
 }
 .side-bar li{
     list-style-type: none;
@@ -121,7 +121,7 @@
 #user{
     font-weight: 600;
     color: black;
-    border-right: 3px solid red;
+    border-right: 3px solid #F48024;
     background: #F8F9F9;
 }
 #icon-info{
@@ -137,8 +137,8 @@
     padding-top: 10px;
 }
 .main-body{
-    display: flex;
     padding-top: 60px;
+    display: flex;
 }
 .sb3 #icon-info{
     padding-left: 90px;
@@ -155,9 +155,8 @@ span.badgecount{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .main-content{
-    padding: 10px 0px;
+    padding: 10px 10px;
     width: 80%;
-    margin-left: 230px;
 }
 .mc-1,.mc-2,.mc-3{
     display: inline-flex;
@@ -336,7 +335,7 @@ span.badgecount{
     font-size: 13px;
 }
 .communities-content a:hover{
-    color: #505050;
+    color:#717072;
 }
 .communities-content span{
     font-size: 13px;
@@ -386,7 +385,7 @@ ol.list{
     padding:10px;
     border: 1px solid  rgba(17, 17, 17, 0.116);
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .cm2{
     padding: 50px 0px 0px;
