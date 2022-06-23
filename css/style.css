@@ -22,10 +22,11 @@
   padding: 0px 10px;
 }
 .header-left button{
+    height: 34px;
     border-radius: 20px;
     margin: 0px 17px 5px 18px;
     border: 0px black;
-    padding: 12px;
+    padding: 10px;
     color: gray;
     background: #F8F9F9;
 }
@@ -98,11 +99,17 @@
     font-size: smaller;
     border-right: 1px solid  rgba(17, 17, 17, 0.116);
     position: fixed;
+    /*position: sticky;
+    position: -webkit-sticky;
+    top:0;*/
 }
 .side-bar li{
     list-style-type: none;
     vertical-align: middle;
     line-height: 34px;
+}
+.side-bar li:hover{
+    color: #505050;
 }
 .sb1 img{
     vertical-align: middle;
@@ -328,6 +335,9 @@ span.badgecount{
     color: #8d949c;
     font-size: 13px;
 }
+.communities-content a:hover{
+    color: #505050;
+}
 .communities-content span{
     font-size: 13px;
     float: right;
@@ -401,6 +411,9 @@ span.dot-icon {
     border: 1px solid  rgba(17, 17, 17, 0.116);
     display: inline-block;
 }
+.cc-c2:hover,.cc-c3:hover{
+    background: #d8d8d8;
+}
 .cc-c3{
     padding: 5px;
     border: 1px solid  rgba(17, 17, 17, 0.116);
@@ -415,7 +428,7 @@ span.dot-icon {
 }
 .tag-title a{
     float: right;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
     color: #505050;
 }
@@ -443,9 +456,13 @@ span.dot-icon {
     border: 1px solid  rgba(17, 17, 17, 0.116);
 }
 .tag-rows a{
-    background: #d5d5d5;
+    background: #7d7dff2f;
     padding: 5px;
     font-size: 12px;
+    text-decoration: none;
+}
+.tag-rows a:hover{
+    background: hwb(240 25% 0% / 0.274);
 }
 .post-left{
     display: inline-block;
@@ -521,6 +538,9 @@ span.dot-icon {
     color: #7d7dff;
     text-decoration: none;
 }
+.pr-left a:hover{
+    color: hwb(240 25% 0%);
+}
 .pr-left span{
     background: #6ab96a;
     color: white;
@@ -551,6 +571,9 @@ span.dot-icon {
 .meta-left a{
     font-size: 15px;
     color: #7d7dff;
+}
+.meta-left a:hover{
+    color: hwb(240 25% 0%);
 }
 .meta-left span{
     color: #505050;
@@ -591,6 +614,10 @@ span.dot-icon {
 .network-left a{
     font-size: 15px;
     color: #7d7dff;
+}
+.network-left a:hover{
+    font-size: 15px;
+    color: hwb(240 25% 0%);
 }
 .network-left span{
     color: #505050;
@@ -649,4 +676,7 @@ footer{
     color: #8a898f;
     font-size: 11px;
     padding-left: 10px;
+}
+.col a:hover{
+    color:#717072 ;
 }
