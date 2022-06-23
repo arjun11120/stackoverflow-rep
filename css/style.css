@@ -397,7 +397,16 @@ div.img-content{
     list-style-type: none;
 }
 span.dot-icon {
-    color: gold;
+    color: #FFD700;
+}
+span.dot-icon-g {
+    color: #FFD700;
+}
+span.dot-icon-s {
+    color: #C0C0C0;
+}
+span.dot-icon-b {
+    color:#CD7F32;
 }
 .cc-c1{
     font-size: 11px;
