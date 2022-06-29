@@ -96,7 +96,7 @@
     padding: 20px 0px 144px;
     padding-left: 44px;
     color:#7a7a7a;
-    font-size: smaller;
+    font-size: 13px;
     border-right: 1px solid  rgba(17, 17, 17, 0.116);
     position: sticky;
     top:0;
@@ -108,6 +108,9 @@
     vertical-align: middle;
     line-height: 34px;
 }
+.sb1 li:nth-child(2) {
+    font-size: 11px;
+ }
 .side-bar li:hover{
     color: rgb(2, 2, 2);
 }
@@ -145,7 +148,7 @@
 }
 #earth-icon{
     font-size: 20px;
-    vertical-align: middle;
+    vertical-align:sub;
 }
 #earth-icon:hover{
     opacity: 1;
@@ -381,7 +384,7 @@ ol.list{
 }
 .list{
     padding: 10px 30px;
-    line-height: 30px;
+    line-height: 36px;
 }
 .sites-list a,.discription a{
     color: #7d7dff;
@@ -407,7 +410,7 @@ ol.list{
     margin: 12px;
 }
 .cm2{
-    padding: 50px 0px 0px;
+    padding: 28px 0px 0px;
 }
 div.img-content{
     padding: 5px 10px;
