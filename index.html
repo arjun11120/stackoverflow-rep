@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>User-stackoverflow</title>
+    <title>User Jon Skeet -Stack Overflow </title>
     <link rel="icon" type="image/x-icon" href="images/black-bg-icon.png">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="assets/icon.css">
     <link rel="stylesheet" href="assets/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css2.css" />
 </head>
 <body>
     <div class="container">
@@ -41,8 +42,8 @@
                     <ol class="sb1">
                     <li>Home</li>
                     <li>PUBLIC</li>
-                    <li><img id="earth-icon" src="images/earth.png" alt=""> Questions</li>
-                    <div class="sub-sb1">
+                    <li><span id="earth-icon" class="material-symbols-outlined">public</span> Questions</li>
+                     <div class="sub-sb1">
                         <ol>
                             <li>Tags</li>
                             <li id="user">Users</li>
@@ -89,7 +90,7 @@
                     <div class="button-icon">
                         <button type="button" class="btn btn-default">
                             <span class="btn">Profiles</span>
-                            <span id="expand-icon" class="material-icons">expand_more</span>
+                            <span id="expand-icon" class="material-icons">arrow_drop_down</span>
                           </button>
                     </div>
                 </div>
@@ -206,11 +207,12 @@
                                     <li><a href="#">Twitter updates (@jonskeet)</a></li>
                                 </ul>
                             </div>
-                            <span>Email: skeet@pobox.com (but please read my blog post on Stack Overflow-related emails first)</span>
+                            <span>Email: skeet@pobox.com (but please read <a href="#">my blog post on Stack Overflow-related emails </a> first)</span>
                         </div>
                         <div class="cm2">
                             <div class="cm2-title">
                                 <span>Badges</span>
+                                <a href="#">View all badges</a>
                             </div>
                             <div class="cc">
                                 <div class="cc-title">
@@ -222,36 +224,33 @@
                                         </div>
                                     </div>
                                     <div class="cc-content">
-                                        
-                                                <div class="cc-c1">
-                                                    <div class="cc-c2">
-                                                        <span class="dot-icon-g">●</span>
-                                                        <span>extension-methods</span> 
-                                                    </div>
-                                                    <div class="cc-c3">
-                                                        <span> Jul 6, 2019</span>
-                                                    </div>
+                                        <div class="cc-c1">
+                                            <div class="cc-c2">
+                                                <span class="dot-icon-g">●</span>
+                                                <span>extension-methods</span> 
+                                            </div>
+                                            <div class="cc-c3">
+                                                <span> Jul 6, 2019</span>
+                                            </div>
+                                        </div>
+                                            <div class="cc-c1">
+                                                <div class="cc-c2">
+                                                    <span class="dot-icon-g">●</span> 
+                                                    <span>properties</span> 
                                                 </div>
-                                          
-                                                <div class="cc-c1">
-                                                    <div class="cc-c2">
-                                                        <span class="dot-icon-g">●</span> 
-                                                        <span>properties</span> 
-                                                    </div>
-                                                    <div class="cc-c3">
-                                                        <span>Jun 6, 2020</span>
-                                                    </div>
+                                                <div class="cc-c3">
+                                                    <span>Jun 6, 2020</span>
                                                 </div>
-                                            
-                                                <div class="cc-c1">
-                                                    <div class="cc-c2">
-                                                        <span class="dot-icon-g">●</span>
-                                                        <span>events</span> 
-                                                    </div>
-                                                    <div class="cc-c3">
-                                                        <span>Jan 22, 2013</span>
-                                                    </div>
-                                                </div>  
+                                            </div>
+                                            <div class="cc-c1">
+                                                <div class="cc-c2">
+                                                    <span class="dot-icon-g">●</span>
+                                                    <span>events</span> 
+                                                </div>
+                                                <div class="cc-c3">
+                                                    <span>Jan 22, 2013</span>
+                                                </div>
+                                            </div>  
                                     </div>
                                 </div>
                                 <div class="cc-title">
@@ -301,35 +300,33 @@
                                         </div>
                                     </div>
                                     <div class="cc-content">
-                                                <div class="cc-c1">
-                                                    <div class="cc-c2">
-                                                        <span class="dot-icon-b">●</span>
-                                                        <span>superclass</span> 
-                                                    </div>
-                                                    <div class="cc-c3">
-                                                        <span>Jul 23, 2014</span>
-                                                    </div>
-                                                </div>
-                                          
-                                                <div class="cc-c1">
-                                                    <div class="cc-c2">
-                                                        <span class="dot-icon-b">●</span> 
-                                                        <span>xmlreader</span> 
-                                                    </div>
-                                                    <div class="cc-c3">
-                                                        <span>Aug 2, 2014</span>
-                                                    </div>
-                                                </div>
-                                            
-                                                <div class="cc-c1">
-                                                    <div class="cc-c2">
-                                                        <span class="dot-icon-b">●</span>
-                                                        <span>indexout</span> 
-                                                    </div>
-                                                    <div class="cc-c3">
-                                                        <span>Mar 30, 2014</span>
-                                                    </div>
-                                                </div>
+                                        <div class="cc-c1">
+                                            <div class="cc-c2">
+                                                <span class="dot-icon-b">●</span>
+                                                <span>superclass</span> 
+                                            </div>
+                                            <div class="cc-c3">
+                                                <span>Jul 23, 2014</span>
+                                            </div>
+                                        </div>
+                                        <div class="cc-c1">
+                                            <div class="cc-c2">
+                                                <span class="dot-icon-b">●</span> 
+                                                <span>xmlreader</span> 
+                                            </div>
+                                            <div class="cc-c3">
+                                                <span>Aug 2, 2014</span>
+                                            </div>
+                                        </div>
+                                        <div class="cc-c1">
+                                            <div class="cc-c2">
+                                                <span class="dot-icon-b">●</span>
+                                                <span>indexout</span> 
+                                            </div>
+                                            <div class="cc-c3">
+                                                <span>Mar 30, 2014</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 
@@ -445,7 +442,7 @@
                             <div class="post-title">
                                 <div class="post-left">
                                     <span id="title-head">Top posts</span>
-                                    <div>View all <a href="">questions, answers</a>, and <a href="">articles</a> </div>
+                                    <div>View all <a href="#">questions, answers</a>, and <a href="">articles</a> </div>
                                 </div>
                                 <div class="post-right">
                                     <div class="box1">
@@ -679,24 +676,24 @@
 
         <div id="footer-content">
             <div class="footer-bar">
-                <div class="col">
-                    <img src="images/black-bg-icon.png" alt="">
+                <div class="col-1">
+                    <img src="images/footerstack.jpg" alt="">
                 </div>
             
-            <div class="col">
-                <li class="main"><a href="#">STACK OVERFLOW</a></li>
+            <div class="col-2">
+                <li class="main-f"><a href="#">STACK OVERFLOW</a></li>
                 <li class="row"><a href="#">Questions</a></li>
                 <li class="row"><a href="#">Help</a></li>      
             </div>
-            <div class="col">
-                <li class="main"><a href="#">PRODUCTS</a></li>
+            <div class="col-3">
+                <li class="main-f"><a href="#">PRODUCTS</a></li>
                 <li class="row"><a href="#">Teams</a></li>
                 <li class="row"><a href="#">Advertising</a></li>
                 <li class="row"><a href="#">Collectives</a></li>
                 <li class="row"><a href="#">Talent</a></li>
             </div>
-            <div class="col">
-                <li class="main"><a href="#">COMPANY</a></li>
+            <div class="col-4">
+                <li class="main-f"><a href="#">COMPANY</a></li>
                 <li class="row"><a href="#">About</a></li>
                 <li class="row"><a href="#">Press</a></li>
                 <li class="row"><a href="#">Work Here</a></li>
@@ -707,18 +704,19 @@
                 <li class="row"><a href="#">Cookie Settings</a></li>
                 <li class="row"><a href="#">Cookie Policy</a></li>
             </div>
-            <div class="col">
-                <li class="main"><a href="#">STACK EXCHANGE NETWORK</a></li>
+            <div class="col-5">
+                <li class="main-f"><a href="#">STACK EXCHANGE NETWORK</a></li>
                 <li class="row"><a href="#">Technology</a></li>
                 <li class="row"><a href="#">Culture & recreation</a></li>
                 <li class="row"><a href="#">Life & arts</a></li>
                 <li class="row"><a href="#">Science</a></li>
                 <li class="row"><a href="#">Professional</a></li>
                 <li class="row"><a href="#">Business</a></li>
+		<li class="row"><a href="#"></a></li>
                 <li class="row"><a href="#">API</a></li>
                 <li class="row"><a href="#">Data</a></li>
             </div>
-             <div class="col">
+             <div class="col-6">
                 <a href="#">Blog</a>
                 <a href="#">Facebook</a>
                 <a href="#">Twitter</a>
