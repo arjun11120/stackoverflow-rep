@@ -127,12 +127,12 @@
     border-right: 3px solid #F48024;
     background: #F8F9F9;
 }
-#icon-info{
+.icon-info{
     width: 15px;
     padding-left: 50px;
     opacity: .6;
 }
-#icon-star{
+.icon-star{
     width: 15px;
     padding: 0px 10px 0px 0px;
 }
@@ -594,10 +594,10 @@ span.dot-icon-b {
 .meta-title-right{
     float: right;
 }
-#meta-image{
+.meta-image{
     width:20px;
     height: 20px;
-    padding: 10px;
+        margin: 15px 10px;
 }
 .meta-left a{
     font-size: 15px;
@@ -637,10 +637,10 @@ span.dot-icon-b {
     font-size: 12px;
     color: #8a898f;
 }
-#network-image{
-    width:20px;
-    height: 20px;
-    padding: 10px;
+.network-image{
+    width:20px !important;
+    height: 20px !important;
+    padding: 10px !important;
 }
 .network-left a{
     font-size: 15px;
