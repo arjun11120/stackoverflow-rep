@@ -246,7 +246,6 @@
      background: #E3E6E8;
 }
  .stats-bar{
-     display: block;
      padding: 0px 10px;
 }
  .stats-title span, .about-title span, .collectives-title span, .communities-title span, .cm2-title span, .tag-title, .meta-title span, .net-left span {
@@ -355,10 +354,6 @@
 }
  .communities-content li{
      line-height: 29px;
-}
- .about-bar{
-     padding: 0px 0px;
-     width: 100%;
 }
  ol.list{
      list-style-type: circle;
