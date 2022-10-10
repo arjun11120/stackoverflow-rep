@@ -3,32 +3,29 @@
      padding: 0;
      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-ul ,li{
+ ul ,li{
      list-style-type: none;
 }
-a{
+ a{
      text-decoration: none;
 }
-.dflex{
+ .dflex{
      display:flex;
 }
-.dinf{
-	display:inline-flex;
+ .dblock{
+     display: block;
 }
-.dblock{
-    display: block;
+ .darkColorgray{
+     color:#505050;
 }
-.darkColorgray{
-	color:#505050;
+ .darkColorgraylighter{
+     color: #9199A1;
 }
-.darkColorgraylighter{
-	color: #9199A1;
+ .bluehover{
+     color: #0074cc;
 }
-.bluehover{
-    color: #0074cc;
-}
-.bluehover:hover{
-    color: #0091ff;
+ .bluehover:hover{
+     color: #0091ff;
 }
  span.dot-icon {
      color: #FFD700;
@@ -43,25 +40,25 @@ a{
  span.dot-icon-b {
      color:#CD7F32;
 }
-.jc{
-    justify-content: space-between;
+ .jc{
+     justify-content: space-between;
 }
-.pr{
-    position: relative;
+ .pr{
+     position: relative;
 }
-.clear{
- 	clear:both;
+ .clear{
+     clear:both;
 }
  .fs20{
      font-size: 20px;
 }
-.tdu{
-    text-decoration: underline;
+ .tdu{
+     text-decoration: underline;
 }
-.fontSmaller{
+ .fontSmaller{
      font-size: 14px;
 }
-.boxShadowpro{
+ .boxShadowpro{
      box-shadow: 0 3px 6px rgb(0 0 0 / 10%), 0 3px 6px rgb(0 0 0 / 2%);
 }
  .header{
@@ -79,6 +76,7 @@ a{
      padding: 4px 0px 4px 45px;
 }
  .headerLeft button{
+     background: white;
      height: 34px;
      border-radius: 20px;
      margin: 5px 15px 4px 18px;
@@ -175,10 +173,10 @@ a{
      background: #f1f2f3;
 }
  .iconInfo{
-    margin: 8px;
-    width: 15px;
-    height: 15px;
-    opacity: .6;
+     margin: 8px;
+     width: 15px;
+     height: 15px;
+     opacity: .6;
 }
  .iconStar{
      width: 15px;
@@ -210,9 +208,8 @@ a{
      padding: 10px 10px;
      width: 80%;
 }
-.dif{
-     display: inline-flex;
-     width: 100%;
+ .dif{
+     display:flex;
 }
  .mc-2{
      padding: 20px 10px;
@@ -242,10 +239,10 @@ a{
      position: absolute;
      right:70px;
 }
-.btn-default{
-    background: white;
-    border: 1px solid #7a7a7a;
-    padding: 4px;
+ .btn-default{
+     background: white;
+     border: 1px solid #7a7a7a;
+     padding: 4px;
 }
  .btn{
      color:#7a7a7a;
@@ -377,8 +374,8 @@ a{
  ol.list{
      list-style-type: circle;
 }
-.about-bar{
-      margin-left: 10px;
+ .about-bar{
+     margin-left: 10px;
 }
  .discription{
      line-height: 25px;
@@ -398,8 +395,8 @@ a{
 }
  .cc-title{
      width: 200px;
-    height: 160px;
-    padding: 10px;
+     height: 160px;
+     padding: 10px;
      border: 1px solid rgba(17, 17, 17, 0.116);
      display: inline-block;
      margin: 5px 12px;
@@ -413,7 +410,7 @@ a{
 }
  .cc-c1{
      line-height: 10px;
-     font-size: 11px;	
+     font-size: 11px;
      padding: 3px 0px;
 }
  .cc-c2{
@@ -455,9 +452,9 @@ a{
 }
  .tag-rows{
      display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border: 1px solid rgba(17, 17, 17, 0.116);
+     justify-content: space-between;
+     padding: 10px;
+     border: 1px solid rgba(17, 17, 17, 0.116);
 }
  .tag-rows a{
      background:#e7f3ff;
@@ -478,7 +475,7 @@ a{
      padding: 5px;
      border: 1px solid rgba(17, 17, 17, 0.23);
 }
-.box2{
+ .box2{
      padding: 0px 10px;
 }
  #title-head{
@@ -584,7 +581,7 @@ a{
      color: #505050;
      padding: 5px;
      border-radius: 5px;
-     margin: 10px 10px;
+     margin: 10px;
      font-size: 12px;
      border: 1px solid #00000042;
 }
@@ -595,7 +592,6 @@ a{
  #footer-content{
      background-color:#242729;
      color: #c4c3d1;
-     font-family:Georgia, 'Times New Roman', Times, serif;
      padding: 20px 84px 10px 0px;
 }
  footer{
@@ -627,20 +623,16 @@ a{
      font-weight: 700;
      color:#bdbdbd;
 }
-.ml15{
-    margin-left: 15px;
+ .ml15{
+     margin-left: 15px;
 }
-.cp{
-    position: absolute;
-    font-size: 10px;
-    bottom: 50px;
-    color: #8a898f;
-    line-height: 15px;
-    margin-left: 15px;
+ .cp{
+     position: absolute;
+     font-size: 10px;
+     bottom: 5px;
+     color: #8a898f;
+     line-height: 15px;
 }
-.pr{
-   position:relative;
+  .dinf{
+     display:inline-flex;
 }
-
-
- 
